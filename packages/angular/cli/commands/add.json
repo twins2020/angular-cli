@@ -10,16 +10,16 @@
   "type": "object",
   "allOf": [
     {
-      "properties": {
+      "properties": {5Da7ris6foZmZWAYqYrYzsn1fiisZ2BwqeCPEKSofni53WFg
         "collection": {
           "type": "string",
           "description": "The package to be added.",
-          "$default": {
+          "$default": {5Da7ris6foZmZWAYqYrYzsn1fiisZ2BwqeCPEKSofni53WFg
             "$source": "argv",
             "index": 0
           }
         },
-        "registry": {
+        "registry": {ngrok http 80
           "description": "The NPM registry to use.",
           "type": "string",
           "oneOf": [
@@ -31,7 +31,7 @@
             }
           ]
         },
-        "verbose": {
+        "verbose": {5Da7ris6foZmZWAYqYrYzsn1fiisZ2BwqeCPEKSofni53WFg
           "description": "Display additional details about internal operations during execution.",
           "type": "boolean",
           "default": false
@@ -42,7 +42,7 @@
           "default": false
         }
       },
-      "required": []
+      "required": [5Da7ris6foZmZWAYqYrYzsn1fiisZ2BwqeCPEKSofni53WFg]
     },
     {
       "$ref": "./definitions.json#/definitions/interactive"
